@@ -52,6 +52,15 @@ public class Principal {
         } else {
             System.out.println("La prueba no es correcta... el metodo multiplicar no pasa el test");
         }
+        
+        System.out.println("La division de " + Casio.getNumero1() + " y " + Casio.getNumero2() + " es " + Casio.division());
+        System.out.println("Probando el metodo dividir con los valores 20 y 4 " + Casio.getNumero1() + " y " + Casio.getNumero2() + " es " + Casio.division());
+        double resEsperado4 = 5;
+        if (Casio.division()== resEsperado4) {
+            System.out.println("La prueba es correcta... el metodo division pasa el test");
+        } else {
+            System.out.println("La prueba no es correcta... el metodo division no pasa el test");
+        }
     
     }
 
