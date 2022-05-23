@@ -44,7 +44,14 @@ public class Principal {
             System.out.println("La prueba no es correcta... el metodo resta no pasa el test");
         }
         
-        
+        System.out.println("La multiplicacion de " + Casio.getNumero1() + " y " + Casio.getNumero2() + " es " + Casio.multiplicacion());
+        System.out.println("Probando el metodo multiplicar con los valores 20 y 4 " + Casio.getNumero1() + " y " + Casio.getNumero2() + " es " + Casio.multiplicacion());
+        double resEsperado3 = 80;
+        if (Casio.multiplicacion()== resEsperado3) {
+            System.out.println("La prueba es correcta... el metodo multiplicar pasa el test");
+        } else {
+            System.out.println("La prueba no es correcta... el metodo multiplicar no pasa el test");
+        }
     
     }
 
